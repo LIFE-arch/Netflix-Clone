@@ -140,14 +140,14 @@ nav button{
 }
 
 .faq h2{
-    font-weight: 500;
+    font-weight: 800;
     font-size: 40px;
 }
 
 .drop{
     margin: 60px auto;
     width: 100%;
-    max-width: 750px;
+    
 }
 
 .drop li{
@@ -159,11 +159,12 @@ nav button{
 .drop li label{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
+    height: 80px;
     font-size: 18px;
     font-weight: 500;
     background: #303030;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     cursor: pointer;
     position: relative;
 }
@@ -311,5 +312,9 @@ input[type="radio"]{
 
     label::after{
         font-size: 22px;
+    }
+
+    .drop li label{
+        font-size: 16px;
     }
 }
